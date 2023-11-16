@@ -11,7 +11,10 @@ public class NumeroReverso {
             String numeroInformadoString = String.valueOf(numeroInformado);
             if (numeroInformado >= 1000 && numeroInformado <= 9999) {
                 StringBuilder stringBuilder = new StringBuilder(numeroInformadoString);
-                System.out.println();
+                System.out.println(stringBuilder.reverse());
+                break;
+            } else if (numeroInformadoString.length() < 4) {
+                System.out.println("O numero deverá conter 4 dígitos :");
             }
         } while (true);
     }
