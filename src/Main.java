@@ -1,9 +1,22 @@
-import desafios.NumeroReverso;
+import desafios.Macaco;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        NumeroReverso.numeroReveso();
+        //NumeroReverso.numeroReveso();
+        Macaco macaco1 = new Macaco();
+
+        macaco1.comer("banana");
+        macaco1.comer("uva");
+        macaco1.comer("morango");
+
+
+        macaco1.digerir();
+        macaco1.digerir();
+        macaco1.digerir();
+        macaco1.digerir();
+
     }
+
 }
