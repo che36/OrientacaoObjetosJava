@@ -12,6 +12,22 @@ public class Consultor extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return 0;
+        return valorHora * horasTrabalhadas;
+    }
+
+    public double getValorHora() {
+        return valorHora;
+    }
+
+    public void setValorHora(double valorHora) {
+        this.valorHora = valorHora;
+    }
+
+    public long getHorasTrabalhadas() {
+        return horasTrabalhadas;
+    }
+
+    public void setHorasTrabalhadas(long horasTrabalhadas) {
+        this.horasTrabalhadas = horasTrabalhadas;
     }
 }
