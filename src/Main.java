@@ -19,8 +19,12 @@ public class Main {
         //macaco1.digerir();
 
         Vendedor vendedor = new Vendedor("Cesar Vendedor", 123456l, 14d, 45l);
-
+        System.out.println(vendedor.getSALARIO_MININO());
+        System.out.println(vendedor.getNome());
         Consultor consultor = new Consultor("Consultor", 123456l, 45d, 84);
+        System.out.println(consultor.getSALARIO_MININO());
+        System.out.println(consultor.getNome());
+
     }
 
 }
