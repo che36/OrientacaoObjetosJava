@@ -11,4 +11,24 @@ public abstract class Funcionario {
     }
 
     public abstract double calcularSalario();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public long getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(long cpf) {
+        this.cpf = cpf;
+    }
+
+    public double getSALARIO_MININO() {
+        return SALARIO_MININO;
+    }
 }
