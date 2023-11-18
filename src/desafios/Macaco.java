@@ -23,7 +23,8 @@ public class Macaco {
             System.out.println("Bucho Vazio!");
 
         } else {
-            bucho.remove(bucho.get(0));
+            bucho.remove(0);
         }
+        System.out.println(bucho);
     }
 }
